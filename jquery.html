@@ -1,0 +1,23 @@
+<html>
+<head>
+    <script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
+</head>
+<body>
+    <h1>Using Javascript</h1>
+    <div id="first">The first divider.</div>
+    <div id="second">Another divider!</div>
+    <p>If you want to see me disappear, click me ...</p>
+    <button id="b1">Amazing, right?</button>
+</body>
+
+<script>
+ 
+        $("p").click(function(){
+            $(this).hide();
+        });
+    
+        $("#b1").click(function(){
+            $(this).text("You bet your ass.");
+        });
+</script>
+</html
